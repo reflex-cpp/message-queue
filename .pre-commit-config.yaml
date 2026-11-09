@@ -1,0 +1,9 @@
+repos:
+  - repo: https://github.com/pre-commit/mirrors-clang-format
+    rev: 'f9a52e87b6cdcb01b0a62b8611d9ba9f2dad0067' # v19.1.7
+    hooks:
+      - id: clang-format
+  - repo: https://github.com/BlankSpruce/gersemi
+    rev: '748e8cb16acfafc68f58205f12e9b1267ead0445' # 0.23.1
+    hooks:
+      - id: gersemi

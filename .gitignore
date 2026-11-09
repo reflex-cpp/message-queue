@@ -1,0 +1,17 @@
+# Build directories
+/build
+/cmake-build-*
+/out
+
+CMakeUserPresets.json
+
+# CLion project
+**/.idea
+
+# Visual Studio files
+CMakeSettings.json
+**/.vs
+**/*.user
+
+# Visual Studio Code files
+**/.vscode
